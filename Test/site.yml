@@ -1,0 +1,4 @@
+---
+# invoking scripts on the work-book
+- import_playbook: restart.yml
+#- import_playbook: check_installed.yml 

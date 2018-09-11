@@ -1,0 +1,5 @@
+---
+# restart service for certain roles
+- hosts: localmachine
+  roles: 
+    - restart_mariadb

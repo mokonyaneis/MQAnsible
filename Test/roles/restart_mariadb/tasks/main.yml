@@ -1,0 +1,6 @@
+---
+
+- name: stop and start mariadb in restart command
+  service:
+    name: mariadb
+    state: restarted
